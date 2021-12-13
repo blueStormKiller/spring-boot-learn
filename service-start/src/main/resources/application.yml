@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+  thymeleaf:
+    enabled: true
+    encoding: utf-8
+    prefix: "classpath:/templates/"
+    cache: false
+    content-type: text/html
+    mode: HTML
+    suffix: .html
+    mvc:
+      static-path-pattern: /static/**
+    resources:
+      static-locations: classpath:/static/
